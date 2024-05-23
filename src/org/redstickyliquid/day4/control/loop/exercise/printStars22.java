@@ -38,7 +38,7 @@ public class printStars22 {
 //						for (int b = 0; b < x; b++) {
 //								if (stars[a][b] == null) System.out.print(" "); else System.out.print(stars[a][b]);
 //							}
-////						System.out.println("");
+//						System.out.println("");
 //					}
 		}
 		
