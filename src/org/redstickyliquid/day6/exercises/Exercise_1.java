@@ -59,13 +59,14 @@ public class Exercise_1 {
 			System.out.print("가위 바위 보 중 한개를 입력하세요 : ");
 			
 			int player = indexOf(ops, sc.next());
-			String computer = ops[roll.nextInt(3)];
+			String computer = ops[roll.nextInt(3)]; // 바위
 			
 			System.out.printf("당신은 %s를 냈습니다.\n", ops[player]);
 			System.out.printf("컴퓨터는 %s를 냈습니다.\n", computer);
 			
 			for (int i = 0; i < 3; i++) {
 				conditions[i] = ops[(player + i) > 2 ? player + i - 3 : player + i];
+				// "보", "가위", "바위"
 			};
 			player = 0;
 			result = player + indexOf(conditions, computer);

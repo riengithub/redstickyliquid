@@ -1,7 +1,7 @@
 package org.redstickyliquid.day5.exception;
 
 import java.util.Scanner;
-
+//NumberFormatException //NullPointerException
 public class ExerciseExemption_4 {
 
 	public static void main(String[] args) {

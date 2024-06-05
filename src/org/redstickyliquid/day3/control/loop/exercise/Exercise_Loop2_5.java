@@ -21,7 +21,7 @@ public class Exercise_Loop2_5 {
 		Scanner sc = new Scanner(System.in);
 		print("2보다 크거나 작은 소수를 입력하시오: ");
 		int input = sc.nextInt();
-		if (input < 2) print ("잘못 입력하셨습니다."); else
+		if (input < 3) print ("잘못 입력하셨습니다."); else
 		for (int i = 2; i <= input; i++) {
 			if(input % i == 0) {
 				if(input > i) {

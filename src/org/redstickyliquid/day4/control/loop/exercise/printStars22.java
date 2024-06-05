@@ -1,12 +1,13 @@
 package org.redstickyliquid.day4.control.loop.exercise;
-
 import java.util.Scanner;
 
 public class printStars22 {
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("아무 양의 정수나 입력하세요: ");
 		int n = sc.nextInt();
+		long t1 = System.nanoTime();
 		int l = 2 * (2 * n - 1);
 		int x = l - 1;
 		int y = l + 1;
@@ -50,6 +51,9 @@ public class printStars22 {
 				}
 			System.out.println("");
 		}
+		long t2 = System.nanoTime();
+		long elapsedTime = t2 - t1;
+		System.out.println("Elapsed time in milliseconds: " + elapsedTime / 1_000_000);
 		
 	}
 }

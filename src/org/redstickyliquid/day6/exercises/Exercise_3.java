@@ -21,7 +21,6 @@ public class Exercise_3 {
 					output[i] = source[idx];
 					sum += source[idx];
 					source[idx] = -1;
-					
 				} else {
 					i--;
 				}

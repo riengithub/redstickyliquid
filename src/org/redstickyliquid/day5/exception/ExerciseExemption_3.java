@@ -21,10 +21,15 @@ public class ExerciseExemption_3 {
 
 				catch (IndexOutOfBoundsException e) {
 					System.out.printf("%d번째 반복에서 오류가 발생했소. %d 이하의 수를 입력하시오.\n", i + 1, l);
+
 					break;
 				}
 			}
-//		
+			if (repeat <= l) {
+				System.out.print("Successful");
+				sc.close();
+				isClosed = true;
+			}
 		}
 
 	}
